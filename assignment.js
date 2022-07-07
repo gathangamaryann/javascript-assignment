@@ -1,12 +1,27 @@
-let num = 0
-for (num = 0; num <= 100; num++) {
-  if (num % 3 == 0 && num % 5 != 0) {
-    console.log("fuzz")
-  } else if (num % 5 == 0 && num % 3 != 0) {
-    console.log("Buzz")
-  } else if (num % 3 == 0 && num % 5 == 0) {
-    console.log("FuzzBUzz")
-  }
+// let num = 0
+// for (num = 0; num <= 100; num++) {
+//   if (num % 3 == 0 && num % 5 != 0) {
+//     console.log("fuzz")
+//   } else if (num % 5 == 0 && num % 3 != 0) {
+//     console.log("Buzz")
+//   } else if (num % 3 == 0 && num % 5 == 0) {
+//     console.log("FuzzBUzz")
+//   }
+// }
+
+for ( var i = 1; i <= 100; i++ )
+ 
+if ( i%3 === 0 && i%5 === 0 )
+{
+console.log( i + " FizzBuzz" );
+}
+else if ( i%3 === 0 )
+{
+console.log(i+ " Fizz" );
+}
+else if ( i%5 === 0 )
+{
+console.log(i+ " Buzz" );
 }
 
 // 2. Write a JavaScript program to sum the multiples of 3 and 5 under 1000.
